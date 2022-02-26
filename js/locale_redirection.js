@@ -17,7 +17,7 @@
     for (const supported_language of localized_folders) {
       if (window.navigator.language.startsWith(supported_language)) {
         return supported_language;
-      }  
+      }
     }
 
     return null;
